@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import _ from 'underscore';
 
 let numbers =[];
@@ -17,6 +17,7 @@ function Ball(props){
     borderRadius:25,
     alignItems:'center',
     justifyContent:'center'
+    //flex layout
   };
   const textStyle={
     fontSize:18,
