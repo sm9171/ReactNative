@@ -8,7 +8,7 @@ import TypeD from './pages/TypeD';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-// 여러개의 네비게이터를 생성할 수 있고 서로 겹치는 상태로 생성할 수도 있음
+// 여러개의 네비게이터를 생성할 수 있고 서로 겹치는 상태로 생성할 수도 있음, 맨위에 페이지가 default
 const Navigator = createStackNavigator( {
   Home: Home,
   TypeA: TypeA,
